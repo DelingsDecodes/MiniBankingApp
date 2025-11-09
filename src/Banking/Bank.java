@@ -27,7 +27,7 @@ public class Bank {
                 BankManagement.createAccount(name, pass);
             }
             else if (ch == 2) {
-                System.out.print("Enter Name: ");
+                System.out.print("Enter Name: ");       
                 String name = br.readLine();
 
                 System.out.print("Enter Passcode: ");

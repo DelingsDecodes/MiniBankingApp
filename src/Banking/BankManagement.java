@@ -29,7 +29,7 @@ public class BankManagement {
                 return true;
             }
         } catch (SQLIntegrityConstraintViolationException e) {
-            System.out.println("Username already exists! Try another one.");
+            System.out.println("Username is already in Use Try another one.");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -87,7 +87,7 @@ public class BankManagement {
                     } else {
                         System.out.println("Invalid choice! Try again.");
                     }
-                }
+                }                                                                           
                 return true;
 
             } else {
